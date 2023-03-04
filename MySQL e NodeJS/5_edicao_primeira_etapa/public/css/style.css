@@ -1,0 +1,93 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+#navbar {
+  border-bottom: 1px solid #ccc;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+
+#navbar UL {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  
+}
+
+#navbar UL li {
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.form, .books-container {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: .3em;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: .3em;
+}
+
+.form-control input {
+  padding: 5px;
+}
+
+/* books */
+
+.books-container div {
+  border-bottom: 1px solid #ff00f2;
+  padding: 5px;
+  margin: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.books-container a {
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  color: white;
+}
+
+/* book */
+
+#book-page {
+  padding: 2em;
+}
+
+#book-page .container {
+  text-align: center;
+}
+
+.a-book {
+  background-color: black;
+  color: white;
+}
+
+.actions {
+  margin-top: 1em;
+}
