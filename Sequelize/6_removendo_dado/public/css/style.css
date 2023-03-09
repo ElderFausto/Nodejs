@@ -96,4 +96,28 @@ a {
 
 .actions {
   display: flex;
+  justify-content: space-between;
+}
+
+.actions a,
+.actions input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: white;
+  padding: 5px;
+  font-size: 15px;
+  color: #000;
+  cursor: pointer;
+}
+
+.actions .details-btn {
+  border-color: #004085;
+  color: #004085;
+  margin-right: 10px;
+}
+
+.actions .delete-btn {
+  border-color: #ee2b09;
+  color: #f53e07;
 }
